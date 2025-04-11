@@ -1,0 +1,46 @@
+body { 
+    font-family: 'Courier New', Courier, monospace;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 101px;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.banner-image{
+    border: 1px solid;
+    height: 400px;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-size: cover;
+    background-position: right;
+}
+.section-content {
+    text-align: center;
+}
+main > section {
+    height: 800px;
+}
+footer {
+    text-align: center;
+}
